@@ -8,5 +8,6 @@ spring:
         encrypt:
           enabled: false
         git:
+          default-label: master
           uri: https://github.com/candradebh/microservices-repo/
           search-paths: mercado-financeiro, investimentos, fornecedor, loja, transportador, auth
