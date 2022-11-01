@@ -1,12 +1,12 @@
+server:
+  port: 7777
 
-server:  port: 8888
-  
 spring:
   cloud:
     config:
       server:
         encrypt:
-            enabled: false
+          enabled: false
         git:
           uri: https://github.com/candradebh/microservices-repo/
-          search-paths: investimentos, fornecedor, loja, transportador, auth
+          search-paths: mercado-financeiro, investimentos, fornecedor, loja, transportador, auth
